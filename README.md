@@ -15,7 +15,7 @@ It was quite easy to download NFTs from the first two sources. But when it came 
 #!/usr/bin/bash
 for each in {0000..10000}
 do
-wget "https://www.larvalabs.com/cryptopunks/cryptopunk$each.png"
+	wget "https://www.larvalabs.com/cryptopunks/cryptopunk$each.png"
 done
 ```
 
@@ -24,7 +24,7 @@ done
 #!/usr/bin/bash
 for  i  in {1..1000}
 do
-wget "https://wallstreetbulls.io/wallstbulls/media/$i.jpg"
+	wget "https://wallstreetbulls.io/wallstbulls/media/$i.jpg"
 done
 ```
 
